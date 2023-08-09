@@ -10,5 +10,5 @@
 <p>{$userUUID}</p>
 
 {#each servers as server}
-	<a href={`bubbles/${server.ServerId}`}>Go to server {server.Name} </a>
+	<a href={`bubbles/${server.ServerId}`}>Go to server {server.Name}</a>
 {/each}
